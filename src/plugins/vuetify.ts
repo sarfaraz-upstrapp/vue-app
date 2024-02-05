@@ -6,7 +6,7 @@ import * as directives from 'vuetify/directives';
 //DragScroll
 import { VueDraggableNext } from 'vue-draggable-next'
 //Data tables
-import { VDataTable } from 'vuetify/labs/VDataTable';
+// import { VDataTable } from 'vuetify/labs/VDataTable';
 import { BLUE_THEME, AQUA_THEME, PURPLE_THEME, GREEN_THEME, CYAN_THEME, ORANGE_THEME } from '@/theme/LightTheme';
 import {
     DARK_BLUE_THEME,
@@ -19,7 +19,7 @@ import {
 
 export default createVuetify({
     components: {
-        VDataTable,
+        // VDataTable,
         draggable: VueDraggableNext,
     },
     directives,
