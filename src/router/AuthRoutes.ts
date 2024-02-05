@@ -11,7 +11,7 @@ const AuthRoutes = {
         //     component: () => import('@/views/pages/landingpage/index.vue')
         // },
         {
-            name: 'vueApp-upstrapp.co.in', // alanding page change to log-in-page
+            name: 'vueApp-upstrapp.co.in', // landing page change to log-in-page
             path: '/',
             component: () => import('@/views/authentication/SideLogin.vue')
         },
@@ -51,21 +51,13 @@ const AuthRoutes = {
             path: '/auth/reset-password/:token',
             // component: () => import('@/views/authentication/SideResetPassword.vue')
         },
-        // {
-        //     name: 'Boxed Forgot Password',
-        //     path: '/auth/forgot-password2',
-        // component: () => import('@/views/authentication/BoxedForgotPassword.vue')
-        // },
+
         // {
         //     name: 'Side Two Steps',
         //     path: '/auth/two-step',
         // component: () => import('@/views/authentication/SideTwoStep.vue')
         // },
-        // {
-        //     name: 'Boxed Two Steps',
-        //     path: '/auth/two-step2',
-        // component: () => import('@/views/authentication/BoxedTwoStep.vue')
-        // },
+
         {
             name: 'Error',
             path: '/auth/404',
